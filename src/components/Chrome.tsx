@@ -15,11 +15,11 @@ const NAV: { href: string; label: { en: string; zh: string } }[] = [
 ];
 
 const SUBDOMAIN_FOR: Record<string, string> = {
-  "civilization-os":      "https://civilization-os.psyverse.fun",
-  "idea-evolution":       "https://idea-evolution.psyverse.fun",
-  "material-civilization":"https://material-civilization.psyverse.fun",
+  "civilization-os":      "https://civos-civilization-os.psyverse.fun",
+  "idea-evolution":       "https://civos-idea-evolution.psyverse.fun",
+  "material-civilization":"https://civos-material-civilization.psyverse.fun",
   "psy-protocol-spec":    "https://psy-protocol-spec.psyverse.fun",
-  "clan-civilization":    "https://clan-civilization.psyverse.fun",
+  "clan-civilization":    "https://civos-clan-civilization.psyverse.fun",
   "sensory-os":           "https://sensory-os.psyverse.fun",
   "reality-kernel":       "https://reality-kernel.psyverse.fun",
   "decision-os":          "https://decision-os.psyverse.fun",
