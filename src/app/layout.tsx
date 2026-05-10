@@ -13,6 +13,7 @@ export const metadata: Metadata = {
   authors: [{ name: "Gewenbo", url: "https://psyverse.fun" }],
   alternates: { canonical: "/", languages: { en: "/", "zh-CN": "/", "x-default": "/" } },
   openGraph: {
+    images: [{ url: "/opengraph-image.png", width: 1200, height: 630, alt: "civos · Civilization OS Ecosystem · 文明操作系统生态" }],
     title: "civos · Civilization OS Ecosystem",
     description: "Ten interlocking civilization-scale systems, one shared ontology, one specification.",
     url: "https://civos.psyverse.fun/",
@@ -21,7 +22,8 @@ export const metadata: Metadata = {
     locale: "en_US",
     alternateLocale: ["zh_CN"],
   },
-  twitter: { card: "summary_large_image", title: "civos · 文明操作系统生态", description: "Ten systems. One spec. Bilingual." },
+  twitter: {
+    images: ["/twitter-image.png"], card: "summary_large_image", title: "civos · 文明操作系统生态", description: "Ten systems. One spec. Bilingual." },
   robots: { index: true, follow: true },
   other: { "theme-color": "#3a6e62" },
 };
